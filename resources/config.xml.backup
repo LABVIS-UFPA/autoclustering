@@ -1,0 +1,113 @@
+<AutoClustering version="0.9" slices="10">
+   <node id="0" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.InitialNode</method></node>
+   <node id="1" optK="true" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dbscan.CandidatesByDistance</method>
+      <parameter min="2.0" max="5.0" type="DBSCAN_NUM_PTS"/>
+      <parameter min="50.0" max="200.0" type="DBSCAN_MAX_DIST"/>
+   </node>
+   <node id="2" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dbscan.ClustersByConnectiveness</method>
+      <parameter min="2.0" max="5.0" type="DBSCAN_NUM_PTS"/>
+      <parameter min="50.0" max="200.0" type="DBSCAN_MAX_DIST"/>
+   </node>
+   <node id="3" optK="false" optOver="true">
+      <method>br.rede.autoclustering.algorithms.dbclasd.CandidatesByNpts</method>
+      <parameter min="1.0" max="10.0" type="DBCLASD_PTS"/>
+   </node>
+   <node id="4" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dbclasd.ClustersByDistribution</method>
+      <parameter min="1.0" max="10.0" type="DBCLASD_PTS"/>
+   </node>
+   <node id="5" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.denclue.ASH</method>
+      <parameter min="1.0" max="10.0" type="DENCLUE_SIGMA"/>
+      <parameter min="0.0" max="5.0" type="DENCLUE_EPSILON"/>
+   </node>
+   <node id="6" optK="true" optOver="true">
+      <method>br.rede.autoclustering.algorithms.denclue.ClustersByAttractors</method>
+      <parameter min="1.0" max="10.0" type="DENCLUE_SIGMA"/>
+      <parameter min="0.0" max="5.0" type="DENCLUE_EPSILON"/>
+   </node>
+   <node id="7" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.clique.DenseAreas</method>
+      <parameter min="5" max="30" type="CLIQUE_SLICES"/>
+      <parameter min="1.0E-3" max="0.1" type="CLIQUE_THRESHOLD"/>
+   </node>
+   <node id="8" optK="true" optOver="false">
+      <method>br.rede.autoclustering.algorithms.clique.ClustersByPartition</method>
+      <parameter min="1" max="30" type="CLIQUE_SLICES"/>
+      <parameter min="1.0E-3" max="0.1" type="CLIQUE_THRESHOLD"/>
+   </node>
+   <node id="9" optK="true" optOver="false">
+      <method>br.rede.autoclustering.algorithms.amr.AMRTree</method>
+      <parameter min="5.0" max="30.0" type="AMR_SLICES"/>
+      <parameter min="1.0" max="2.0" type="AMR_DENSITY"/>
+      <parameter min="1.0" max="3.0" type="AMR_LAMBDA"/>
+   </node>
+   <node id="10" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.amr.ClustersAMR</method>
+      <parameter min="5.0" max="30.0" type="AMR_SLICES"/>
+      <parameter min="1.0" max="1.0" type="AMR_DENSITY"/>
+      <parameter min="1.0" max="3.0" type="AMR_LAMBDA"/>
+   </node>
+   <node id="11" optK="true" optOver="true">
+      <method>br.rede.autoclustering.algorithms.descry.AdaptableKDTree</method>
+      <parameter min="1.0" max="10.0" type="DESCRY_DENSITY"/>
+      <parameter min="2.0" max="10.0" type="DESCRY_K"/>
+   </node>
+   <node id="12" optK="false" optOver="true">
+      <method>br.rede.autoclustering.algorithms.descry.MergeByDistance</method>
+      <parameter min="1.0" max="10.0" type="DESCRY_DENSITY"/>
+      <parameter min="2.0" max="10.0" type="DESCRY_K"/>
+   </node>
+   <node id="13" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.sudephic.EquallySizedGrid</method>
+      <parameter min="5.0" max="30.0" type="AMR_SLICES"/>
+   </node>
+   <node id="14" optK="true" optOver="true">
+      <method>br.rede.autoclustering.algorithms.sudephic.MergeByOverlap</method>
+   </node>
+   <node id="15" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dhc.AttractionTree</method>
+      <parameter min="5.0" max="10.0" type="DHC_MINPTS"/>
+      <parameter min="20.0" max="50.0" type="DHC_THRESHOLD"/>
+      <parameter min="1.0" max="5.0" type="DHC_SIGMA"/>
+   </node>
+   <node id="16" optK="true" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dhc.DensityTree</method>
+      <parameter min="5.0" max="10.0" type="DHC_MINPTS"/>
+      <parameter min="20.0" max="50.0" type="DHC_THRESHOLD"/>
+      <parameter min="1.0" max="5.0" type="DHC_SIGMA"/>
+   </node>
+   <edge in="0" out="15"/>
+   <edge in="0" out="1"/>
+   <edge in="0" out="3"/>
+   <edge in="0" out="5"/>
+   <edge in="0" out="7"/>
+   <edge in="0" out="13"/>
+   <edge in="0" out="11"/>
+   <edge in="1" out="2"/>
+   <edge in="1" out="12"/>
+   <edge in="1" out="4"/>
+   <edge in="1" out="14"/>
+   <edge in="5" out="2"/>
+   <edge in="5" out="4"/>
+   <edge in="5" out="6"/>
+   <edge in="5" out="15"/>
+   <edge in="3" out="2"/>
+   <edge in="3" out="12"/>
+   <edge in="3" out="4"/>
+   <edge in="3" out="14"/>
+   <edge in="7" out="6"/>
+   <edge in="7" out="8"/>
+   <edge in="7" out="9"/>
+   <edge in="13" out="9"/>
+   <edge in="13" out="12"/>
+   <edge in="13" out="14"/>
+   <edge in="9" out="12"/>
+   <edge in="9" out="10"/>
+   <edge in="11" out="10"/>
+   <edge in="11" out="12"/>
+   <edge in="15" out="16"/>
+</AutoClustering>

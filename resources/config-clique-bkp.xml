@@ -1,0 +1,190 @@
+<AutoClustering version="0.9" slices="10">
+   <node id="0" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.InitialNode</method>
+   </node>
+      
+   <node id="1" optK="true" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dbscan.CandidatesByDistance</method>
+      <parameter min="1.0" max="10.0" type="DBSCAN_NUM_PTS"/>
+      <parameter min="1.0" max="60.0" type="DBSCAN_MAX_DIST"/>
+   </node>
+   <node id="2" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dbscan.ClustersByConnectiveness</method>
+      <parameter min="1.0" max="10.0" type="DBSCAN_NUM_PTS"/>
+      <parameter min="1.0" max="60.0" type="DBSCAN_MAX_DIST"/>
+   </node>
+   
+   <node id="3" optK="false" optOver="true">
+      <method>br.rede.autoclustering.algorithms.dbclasd.CandidatesByNpts</method>
+      <parameter min="1.0" max="10.0" type="DBCLASD_PTS"/>
+   </node>
+   <node id="4" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dbclasd.ClustersByDistribution</method>
+      <parameter min="1.0" max="10.0" type="DBCLASD_PTS"/>
+   </node>
+   
+   <node id="5" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.denclue.ASH</method>
+      <!--<parameter min="1.0" max="10.0" type="DENCLUE_SIGMA"/>-->
+      <parameter min="1.0" max="40.0" type="DENCLUE_SIGMA"/>
+      <!--<parameter min="0.1" max="5.0" type="DENCLUE_EPSILON"/>-->
+      <parameter min="0.1" max="10.0" type="DENCLUE_EPSILON"/>
+   </node>
+   <node id="6" optK="true" optOver="true">
+      <method>br.rede.autoclustering.algorithms.denclue.ClustersByAttractors</method>
+      <!--<parameter min="1.0" max="10.0" type="DENCLUE_SIGMA"/>-->
+      <parameter min="1.0" max="40.0" type="DENCLUE_SIGMA"/>
+      <!--<parameter min="0.1" max="5.0" type="DENCLUE_EPSILON"/>-->
+      <parameter min="0.1" max="10.0" type="DENCLUE_EPSILON"/>
+      <!-- Aparentemente o SIGMA trabalha como a distância min e max entre as instâncias -->
+      <!-- Aparentemente o EPSILON trabalha como o número min e max de pontos para compor uma densidade -->
+   </node>
+   
+   <node id="7" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.clique.DenseAreas</method>
+      <parameter min="5" max="30" type="CLIQUE_SLICES"/>
+      <parameter min="1.0E-7" max="0.001" type="CLIQUE_THRESHOLD"/>
+   </node>
+   <node id="8" optK="true" optOver="false">
+      <method>br.rede.autoclustering.algorithms.clique.ClustersByPartition</method>
+      <parameter min="3" max="40" type="CLIQUE_SLICES"/>
+      <!--<parameter min="1.0E-7" max="0.01" type="CLIQUE_THRESHOLD"/>-->
+      <parameter min="1.0E-7" max="0.1" type="CLIQUE_THRESHOLD"/>
+      <!-- TAU = 0.1 (i.e.: 10% of 5 points): anything with more than 0.5 points is a cluster... in other words, everything. -->
+   </node>
+
+   <node id="9" optK="true" optOver="false">
+      <method>br.rede.autoclustering.algorithms.amr.AMRTree</method>
+      <parameter min="5.0" max="30.0" type="AMR_SLICES"/>
+      <parameter min="1.0" max="2.0" type="AMR_DENSITY"/>
+      <parameter min="1.0" max="3.0" type="AMR_LAMBDA"/>
+   </node>
+   <node id="10" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.amr.ClustersAMR</method>
+      <parameter min="5.0" max="30.0" type="AMR_SLICES"/>
+      <parameter min="1.0" max="1.0" type="AMR_DENSITY"/>
+      <parameter min="1.0" max="3.0" type="AMR_LAMBDA"/>
+   </node>
+
+   <node id="11" optK="true" optOver="true">
+      <method>br.rede.autoclustering.algorithms.descry.AdaptableKDTree</method>
+      <parameter min="1.0" max="10.0" type="DESCRY_DENSITY"/>
+      <parameter min="2.0" max="10.0" type="DESCRY_K"/>
+   </node>
+   <node id="12" optK="false" optOver="true">
+      <method>br.rede.autoclustering.algorithms.descry.MergeByDistance</method>
+      <parameter min="1.0" max="10.0" type="DESCRY_DENSITY"/>
+      <parameter min="2.0" max="10.0" type="DESCRY_K"/>
+   </node>
+
+   <node id="13" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.sudephic.EquallySizedGrid</method>
+      <parameter min="5.0" max="30.0" type="AMR_SLICES"/>
+   </node>
+   <node id="14" optK="true" optOver="true">
+      <method>br.rede.autoclustering.algorithms.sudephic.MergeByOverlap</method>
+   </node>
+
+   <node id="15" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dhc.AttractionTree</method>
+      <parameter min="5.0" max="10.0" type="DHC_MINPTS"/>
+      <parameter min="20.0" max="50.0" type="DHC_THRESHOLD"/>
+      <parameter min="1.0" max="5.0" type="DHC_SIGMA"/>
+   </node>
+   <node id="16" optK="true" optOver="false">
+      <method>br.rede.autoclustering.algorithms.dhc.DensityTree</method>
+      <parameter min="5.0" max="10.0" type="DHC_MINPTS"/>
+      <parameter min="20.0" max="50.0" type="DHC_THRESHOLD"/>
+      <parameter min="1.0" max="5.0" type="DHC_SIGMA"/>
+   </node>
+   
+<!--    <node id="17" optK="false" optOver="false"> -->
+<!--    	  <method>br.rede.autoclustering.algorithms.newsnn.SNN</method>	 -->
+<!--    	  <parameter min="2.0" max="5.0" type="DBSCAN_NUM_PTS"/> -->
+<!--    	  <parameter min="50.0" max="200.0" type="DBSCAN_MAX_DIST"/> -->
+<!--    	  <parameter min="1.0" max="10.0" type="K_THRESHOLD"/> -->
+<!--    </node> -->
+
+   <node id="18" optK="true" optOver="false">
+   	  <method>br.rede.autoclustering.algorithms.newsnn.CandidatesBySN</method>	
+   	  <parameter min="1.0" max="10.0" type="DBSCAN_NUM_PTS"/>
+   	  <parameter min="1.0" max="60.0" type="DBSCAN_MAX_DIST"/>
+   	  <parameter min="11.0" max="40.0" type="K_THRESHOLD"/>
+   </node>
+   <node id="19" optK="false" optOver="false">
+   	  <method>br.rede.autoclustering.algorithms.newsnn.SNNByConnectiveness</method>	
+   	  <parameter min="2.0" max="10.0" type="DBSCAN_NUM_PTS"/>
+   	  <parameter min="1.0" max="60.0" type="DBSCAN_MAX_DIST"/>
+   	  <parameter min="11.0" max="40.0" type="K_THRESHOLD"/>
+   </node>
+   
+<!--    <node id="20" optK="false" optOver="false"> -->
+<!--    	  <method>br.rede.autoclustering.algorithms.newsnn.AllSNN</method> -->
+<!-- 	  <parameter min="2.0" max="8.0" type="DBSCAN_NUM_PTS"/> -->
+<!-- 	  <parameter min="5.0" max="50.0" type="DBSCAN_MAX_DIST"/> -->
+<!--    	  <parameter min="9.0" max="25.0" type="K_THRESHOLD"/> -->
+<!--    </node> -->
+   
+   <!-- InitialNode -->
+<!--	<edge in="0" out="1"/> --> <!-- CandidatesByDistance -->
+<!--	<edge in="0" out="3"/> --> <!-- CandidatesByNpts -->
+   
+<!--	<edge in="0" out="5"/> --> <!-- ASH -->
+<!--	<edge in="0" out="6"/> --> <!-- ClustersByAttractors -->
+	<edge in="0" out="7"/>  <!-- DenseAreas -->
+<!--    <edge in="0" out="9"/> --> <!-- AMRTree -->
+
+<!--	<edge in="0" out="11"/> --> <!-- AdaptableKDTree -->
+<!--	<edge in="0" out="13"/> --> <!-- EquallySizedGrid -->
+<!--	<edge in="0" out="15"/> --> <!-- AttractionTree -->
+<!--    <edge in="0" out="17"/> -->
+<!--	<edge in="0" out="18"/> --> <!-- CandidatesBySNN -->
+<!--    <edge in="0" out="19"/> -->
+<!--    <edge in="0" out="20"/> -->
+
+	 <!-- CandidatesByDistance -->
+<!--	<edge in="1" out="2"/> --> <!-- ClustersByConnectiveness -->
+<!--    <edge in="1" out="12"/> -->
+<!--	<edge in="1" out="4"/> --> <!-- ClustersByDistribution -->
+<!--    <edge in="1" out="14"/> -->
+
+	 <!-- CandidatesByNpts -->
+<!--	<edge in="3" out="2"/> --> <!-- ClustersByConnectiveness -->
+<!--    <edge in="3" out="12"/> -->
+<!--	<edge in="3" out="4"/> --> <!-- ClustersByDistribution -->
+<!--    <edge in="3" out="14"/> -->
+
+	 <!-- ASH -->
+<!--    <edge in="5" out="2"/> -->
+<!--	<edge in="5" out="4"/> --> <!-- ClustersByDistribution -->
+<!--	<edge in="5" out="6"/> --> <!-- ClustersByAttractors -->
+<!--	<edge in="5" out="15"/> --> <!-- AttractionTree -->
+
+	<!-- DenseAres -->
+<!--	<edge in="7" out="6"/> --> <!-- ClustersByAttractors -->
+	<edge in="7" out="8"/>  <!-- ClustersByPartition -->
+<!--	<edge in="7" out="9"/> --> <!-- AMRTree -->
+
+	 <!-- AMRTree -->
+<!--	<edge in="9" out="12"/> --> <!-- MergeByDistance -->
+<!--	<edge in="9" out="10"/> --> <!-- ClustersAMR -->
+<!--	<edge in="9" out="14"/> --> <!-- MergeByOverlap -->
+
+ 	<!-- AdaptableKDTree -->
+ <!--	<edge in="11" out="10"/> --> <!-- ClustersAMR -->
+<!--	<edge in="11" out="12"/> --> <!-- MergeByDistance -->
+<!--	<edge in="11" out="14"/> --> <!-- MergeByOverlap -->
+
+ 	<!-- EquallySizedGrid -->
+ <!--	<edge in="13" out="9"/> --> <!-- AMRTree -->
+<!--    <edge in="13" out="12"/> -->
+<!--    <edge in="13" out="14"/> -->
+
+	<!-- AttractionTree -->
+<!--	<edge in="15" out="16"/> --> <!-- DensityTree -->
+   
+   	 <!-- CandidatesBySNN -->
+<!--	<edge in="18" out="2"/> --> <!-- ClustersByConnectiveness -->
+<!--	<edge in="18" out="4"/> --> <!-- ClustersByDistribution -->
+<!--	<edge in="18" out="19"/> --> <!-- SNNByConnectiveness -->
+</AutoClustering>

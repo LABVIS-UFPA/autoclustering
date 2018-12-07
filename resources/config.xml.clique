@@ -1,0 +1,16 @@
+<AutoClustering version="0.9" slices="10">
+   <node id="0" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.InitialNode</method></node>
+   <node id="7" optK="false" optOver="false">
+      <method>br.rede.autoclustering.algorithms.clique.DenseAreas</method>
+      <parameter min="5" max="30" type="CLIQUE_SLICES"/>
+      <parameter min="1.0E-3" max="0.1" type="CLIQUE_THRESHOLD"/>
+   </node>
+   <node id="8" optK="true" optOver="false">
+      <method>br.rede.autoclustering.algorithms.clique.ClustersByPartition</method>
+      <parameter min="1" max="30" type="CLIQUE_SLICES"/>
+      <parameter min="1.0E-3" max="0.1" type="CLIQUE_THRESHOLD"/>
+   </node>
+   <edge in="0" out="7"/>
+   <edge in="7" out="8"/>
+</AutoClustering>
