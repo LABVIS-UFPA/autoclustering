@@ -1,0 +1,9 @@
+Algoritmo: EDA FULL 
+Lendo 'pima-indians-diabetes.data' e executando a particao 0 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 3
+Reading Instances - {}
+DistanceInformation - {DISTANCE_INFO=1.2222222, DPCI_DC_PERCENT=55.444447}
+ClusterByDensityPeak - {DISTANCE_INFO=1.2222222, DPCI_DC_PERCENT=55.444447}
+Acurária do indivíduo: 88.32663628155154
+

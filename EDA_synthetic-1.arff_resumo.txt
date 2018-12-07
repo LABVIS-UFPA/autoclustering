@@ -1,0 +1,333 @@
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 0 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=4.0, DESCRY_DENSITY=53.444443}
+MergeByDistance - {DESCRY_K=4.0, DESCRY_DENSITY=53.444443}
+Acurária do indivíduo: 94.66121890251516
+Tempo de processamento da rodada:     7(min) e 30 (s)
+Tempo de processamento da rodada: 450(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 1 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 15 (s)
+Tempo de processamento da rodada: 435(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 2 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 13 (s)
+Tempo de processamento da rodada: 433(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 3 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=10.0, DESCRY_DENSITY=46.888885}
+MergeByOverlap - {PHC_RADIUS=23.333334, PHC_GRID=23.333334}
+Acurária do indivíduo: 94.66121890251516
+Tempo de processamento da rodada:     7(min) e 12 (s)
+Tempo de processamento da rodada: 432(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 4 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 16 (s)
+Tempo de processamento da rodada: 436(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 5 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=20.0, DESCRY_DENSITY=60.0}
+MergeByDistance - {DESCRY_K=20.0, DESCRY_DENSITY=60.0}
+Acurária do indivíduo: 94.66121890251516
+Tempo de processamento da rodada:     7(min) e 16 (s)
+Tempo de processamento da rodada: 436(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 6 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 19 (s)
+Tempo de processamento da rodada: 439(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 7 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 17 (s)
+Tempo de processamento da rodada: 437(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 8 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=10.0, DESCRY_DENSITY=60.0}
+MergeByOverlap - {PHC_RADIUS=39.333336, PHC_GRID=23.333334}
+Acurária do indivíduo: 94.66121890251516
+Tempo de processamento da rodada:     7(min) e 23 (s)
+Tempo de processamento da rodada: 443(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 9 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 28 (s)
+Tempo de processamento da rodada: 448(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 10 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 35 (s)
+Tempo de processamento da rodada: 455(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 11 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 10
+Reading Instances - {}
+CandidatesByNpts - {DBCLASD_PTS=20.0}
+ClustersByDistribution - {DBCLASD_PTS=20.0}
+Acurária do indivíduo: 94.84903254531196
+Tempo de processamento da rodada:     7(min) e 14 (s)
+Tempo de processamento da rodada: 434(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 12 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 20 (s)
+Tempo de processamento da rodada: 440(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 13 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 18 (s)
+Tempo de processamento da rodada: 438(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 14 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=20.0, DESCRY_DENSITY=60.0}
+MergeByOverlap - {PHC_RADIUS=50.0, PHC_GRID=50.0}
+Acurária do indivíduo: 94.66121890251516
+Tempo de processamento da rodada:     7(min) e 15 (s)
+Tempo de processamento da rodada: 435(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 15 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 16 (s)
+Tempo de processamento da rodada: 436(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 16 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 15 (s)
+Tempo de processamento da rodada: 435(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 17 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 15 (s)
+Tempo de processamento da rodada: 435(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 18 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=10.0, DESCRY_DENSITY=46.888885}
+MergeByDistance - {DESCRY_K=10.0, DESCRY_DENSITY=46.888885}
+Acurária do indivíduo: 94.66121890251516
+Tempo de processamento da rodada:     7(min) e 23 (s)
+Tempo de processamento da rodada: 443(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 19 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 16 (s)
+Tempo de processamento da rodada: 436(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 20 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 20 (s)
+Tempo de processamento da rodada: 440(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 21 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=8.0, DESCRY_DENSITY=46.888885}
+MergeByDistance - {DESCRY_K=8.0, DESCRY_DENSITY=46.888885}
+Acurária do indivíduo: 94.66121890251516
+Tempo de processamento da rodada:     7(min) e 20 (s)
+Tempo de processamento da rodada: 440(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 22 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 21 (s)
+Tempo de processamento da rodada: 441(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 23 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 18 (s)
+Tempo de processamento da rodada: 438(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 24 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=12.0, DESCRY_DENSITY=60.0}
+MergeByDistance - {DESCRY_K=12.0, DESCRY_DENSITY=60.0}
+Acurária do indivíduo: 94.66121890251516
+Tempo de processamento da rodada:     7(min) e 14 (s)
+Tempo de processamento da rodada: 434(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 25 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 25 (s)
+Tempo de processamento da rodada: 445(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 26 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=16.0, DESCRY_DENSITY=46.888885}
+MergeByOverlap - {PHC_RADIUS=28.666668, PHC_GRID=12.666667}
+Acurária do indivíduo: 94.66121890251516
+Tempo de processamento da rodada:     7(min) e 24 (s)
+Tempo de processamento da rodada: 444(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 27 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 14 (s)
+Tempo de processamento da rodada: 434(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 28 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 15 (s)
+Tempo de processamento da rodada: 435(s)
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 29 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 7
+Reading Instances - {}
+CandidatesBySNN - {K_THRESHOLD=50.0}
+SNNByConnectiveness - {SNN_MAX_DIST=34.0, K_THRESHOLD=50.0, SNN_NUM_PTS=23.777779}
+Acurária do indivíduo: 95.07235681677768
+Tempo de processamento da rodada:     7(min) e 15 (s)
+Tempo de processamento da rodada: 435(s)
+
+
+Tempo total de processamento:    219(min) e 39
+Tempo total de processamento: 13179(s)

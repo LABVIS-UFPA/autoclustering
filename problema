@@ -1,0 +1,37 @@
+A big drawback of all these methods is caused by the use of grids...... In general, grid-based approaches heavily depend on the positioning of the grids. Figure 2(a) illustrates this problem for CLIQUE: Each grid by itself is not dense, if t > 4, and thus, the cluster C is not found. On the other hand if t = 4, the cell with four objects in the lower right corner just above the x-axis is reported as a cluster. Clsuters may also be missed if they are inadequately oriented or shaped.
+
+Clusters até o momento (k=1) = 148
+Clusters até o momento (k=2) = 236
+Clusters até o momento (k=3) = 191
+Clusters até o momento (k=4) = 74
+Clusters até o momento (k=5) = 11
+Nº de clusters finais (k=6) = 11
+0 83.78134050240757
+
+Clusters até o momento (k=1) = 131
+Clusters até o momento (k=2) = 202
+Clusters até o momento (k=3) = 155
+Clusters até o momento (k=4) = 55
+Clusters até o momento (k=5) = 4
+Nº de clusters finais (k=6) = 4
+1 89.08910548820039
+
+Clusters até o momento (k=1) = 168
+Clusters até o momento (k=2) = 295
+Clusters até o momento (k=3) = 241
+Clusters até o momento (k=4) = 113
+Clusters até o momento (k=5) = 24
+Clusters até o momento (k=6) = 2
+Nº de clusters finais (k=7) = 2
+2 89.08910548820039
+
+Clusters até o momento (k=1) = 155
+Clusters até o momento (k=2) = 258
+Clusters até o momento (k=3) = 197
+Clusters até o momento (k=4) = 74
+Clusters até o momento (k=5) = 12
+Nº de clusters finais (k=6) = 12
+3 89.08910548820039
+
+
+

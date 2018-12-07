@@ -1,0 +1,18 @@
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 0 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=8.0, DESCRY_DENSITY=60.0}
+MergeByDistance - {DESCRY_K=8.0, DESCRY_DENSITY=60.0}
+Acurária do indivíduo: 94.66121890251516
+
+Algoritmo: EDA FULL 
+Lendo 'synthetic-1.arff' e executando a particao 1 na maquina PPGCC-PC01.
+Configuração do melhor indivíduo:
+Número de grupos identificados: 4
+Reading Instances - {}
+AdaptableKDTree - {DESCRY_K=6.0, DESCRY_DENSITY=53.444443}
+MergeByOverlap - {PHC_RADIUS=18.0, PHC_GRID=23.333334}
+Acurária do indivíduo: 94.66121890251516
+
